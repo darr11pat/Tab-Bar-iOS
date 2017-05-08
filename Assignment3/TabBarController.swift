@@ -6,4 +6,9 @@
 //  Copyright © 2016 Darshan Patil. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class TabBarController: UITabBarController {
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask { return .All              // func to support portrait upside down
+    }
+}
